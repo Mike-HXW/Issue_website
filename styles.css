@@ -12,6 +12,15 @@ header {
     font-family: "Times New Roman", Times, Serif;
 }
 
+h2 {
+    box-sizing: border-box; 
+    width: auto; 
+    color: orange; 
+    background-color: blueviolet; 
+    border-radius: 6px; 
+    margin-bottom: 30px;"
+}
+
 main {
     display: flex;
     justify-content: space-evenly;
@@ -25,12 +34,15 @@ p{
     border: solid 3px; 
     border-radius: 6px;
     padding: 3px;
+    background-color: rgba(255, 255, 255, 0.3);
+
 }
 
 footer {
     margin-top: 20px;
     background-color: gold;
     border-radius: 6px;
+    font-size: large;
 
 }
 
@@ -39,6 +51,7 @@ footer {
     width: 100%;
     margin: 0 10px;
     display: flex;
+    gap: 5px;
     flex-direction: column;
     align-items: center;
 }
