@@ -7,6 +7,7 @@ body {
     background-color: lightgrey;
 }
 
+
 header {
     margin-top: 20px;
     font-family: "Times New Roman", Times, Serif;
@@ -31,10 +32,14 @@ main {
 p{
     box-sizing: border-box; 
     width: 100%; 
+    max-width: 300px;
     border: solid 3px; 
     border-radius: 6px;
     padding: 3px;
-    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
 
 }
 
@@ -51,7 +56,7 @@ footer {
     width: 100%;
     margin: 0 10px;
     display: flex;
-    gap: 5px;
+    gap: 0px;
     flex-direction: column;
     align-items: center;
 }
